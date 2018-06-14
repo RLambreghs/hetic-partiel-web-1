@@ -7,32 +7,32 @@
 /* Top Bar --------------------------------------------------------------------------------------------------------------- */
 
 #topbar {
-	padding: 15px 0;
-	font-size: .8rem;
-	text-transform: uppercase;
+  padding: 15px 0;
+  font-size: .8rem;
+  text-transform: uppercase;
 }
 
 #topbar * {
-	margin: 0;
+  margin: 0;
 }
 
 #topbar ul {
-	float: right;
+  float: right;
 }
 
 #topbar ul li {
-	display: inline-block;
-	margin-right: 15px;
+  display: inline-block;
+  margin-right: 15px;
 }
 
 #topbar ul li:last-child {
-	margin-right: 0;
-	padding-right: 0;
-	border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
 }
 
 #topbar i {
-	line-height: normal;
+  line-height: normal;
 }
 
 
@@ -41,51 +41,56 @@
 #header {}
 
 #header #logo {
-	margin: 30px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 #header #logo h1 {
-	margin: 0;
-	padding: 0;
-	font-size: 22px;
-	text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
 #pageintro {
-	padding: 180px 0;
+  padding: 180px 0;
 }
 
 #pageintro article {
-	display: block;
-	max-width: 75%;
-	margin: 0 auto;
-	text-align: center;
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #pageintro .heading {
-	margin-bottom: 20px;
-	font-size: 3rem;
+  margin-bottom: 20px;
+  font-size: 3rem;
 }
 
 #pageintro p:first-of-type {
-	margin: 0 0 20px 0;
-	text-transform: uppercase;
-	font-size: 1.2rem;
-	letter-spacing: 5px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
 }
 
 #pageintro footer {
-	margin-top: 50px;
+  margin-top: 50px;
+}
+
+.bgded .overlay .light {
+  background-image:url('images/demo/backgrounds/01.png');
+
 }
 
 
 /* Content Area --------------------------------------------------------------------------------------------------------------- */
 
 .container {
-	padding: 80px 0;
+  padding: 80px 0;
 }
 
 
@@ -94,127 +99,127 @@
 .container .content {}
 
 .sectiontitle {
-	display: block;
-	max-width: 55%;
-	margin: 0 auto 80px;
-	text-align: center;
+  display: block;
+  max-width: 55%;
+  margin: 0 auto 80px;
+  text-align: center;
 }
 
 .sectiontitle * {
-	margin: 0;
+  margin: 0;
 }
 
 .services {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .services>li>ul li {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .services>li:last-child,
 .services>li>ul li:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 /* Used when elements stack in smaller viewports */
 
 .services>li>ul li i {
-	margin-right: 8px;
+  margin-right: 8px;
 }
 
 .clients {}
 
 .clients li:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 /* Used when elements stack in small viewports */
 
 .clients li a {
-	display: inline-block;
-	max-width: 100%;
+  display: inline-block;
+  max-width: 100%;
 }
 
 .meta li {
-	display: inline-block;
-	font-size: .8rem;
+  display: inline-block;
+  font-size: .8rem;
 }
 
 .meta li::after {
-	margin-left: 5px;
-	content: "|";
+  margin-left: 5px;
+  content: "|";
 }
 
 .meta li:last-child::after {
-	margin: 0;
-	content: "";
+  margin: 0;
+  content: "";
 }
 
 .team {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .team figure {
-	display: block;
-	position: relative;
-	max-width: 320px;
+  display: block;
+  position: relative;
+  max-width: 320px;
 }
 
 .team>figure:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 /* Used when elements stack in smaller viewports */
 
 .team figure figcaption {
-	padding-top: 15px;
-	text-align: center;
+  padding-top: 15px;
+  text-align: center;
 }
 
 .team figure figcaption * {
-	margin: 0;
+  margin: 0;
 }
 
 .team figure figcaption .heading {
-	margin-bottom: 8px;
-	font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
 }
 
 .team figure figcaption em {
-	display: block;
-	font-size: .8rem;
-	font-style: normal;
+  display: block;
+  font-size: .8rem;
+  font-style: normal;
 }
 
 .team figure figcaption footer {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 .team figure figcaption footer .faico li {
-	margin: 0 1px;
+  margin: 0 1px;
 }
 
 .team figure figcaption footer .faico li a {
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	font-size: 12px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
 }
 
 .latest {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .latest article {
-	max-width: 320px;
+  max-width: 320px;
 }
 
 .latest>article:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
@@ -224,70 +229,70 @@
 /* Comments */
 
 #comments ul {
-	margin: 0 0 40px 0;
-	padding: 0;
-	list-style: none;
+  margin: 0 0 40px 0;
+  padding: 0;
+  list-style: none;
 }
 
 #comments li {
-	margin: 0 0 10px 0;
-	padding: 15px;
+  margin: 0 0 10px 0;
+  padding: 15px;
 }
 
 #comments .avatar {
-	float: right;
-	margin: 0 0 10px 10px;
-	padding: 3px;
-	border: 1px solid;
+  float: right;
+  margin: 0 0 10px 10px;
+  padding: 3px;
+  border: 1px solid;
 }
 
 #comments address {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #comments time {
-	font-size: smaller;
+  font-size: smaller;
 }
 
 #comments .comcont {
-	display: block;
-	margin: 0;
-	padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 #comments .comcont p {
-	margin: 10px 5px 10px 0;
-	padding: 0;
+  margin: 10px 5px 10px 0;
+  padding: 0;
 }
 
 #comments form {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 
 #comments input,
 #comments textarea {
-	width: 100%;
-	padding: 10px;
-	border: 1px solid;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
 }
 
 #comments textarea {
-	overflow: auto;
+  overflow: auto;
 }
 
 #comments div {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #comments input[type="submit"],
 #comments input[type="reset"] {
-	display: inline-block;
-	width: auto;
-	min-width: 150px;
-	margin: 0;
-	padding: 8px 5px;
-	cursor: pointer;
+  display: inline-block;
+  width: auto;
+  min-width: 150px;
+  margin: 0;
+  padding: 8px 5px;
+  cursor: pointer;
 }
 
 
@@ -296,35 +301,35 @@
 .container .sidebar {}
 
 .sidebar .sdb_holder {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .sidebar .sdb_holder:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 /* Click to Action --------------------------------------------------------------------------------------------------------------- */
 
 .cta {
-	padding: 80px 0;
-	text-align: center;
+  padding: 80px 0;
+  text-align: center;
 }
 
 .cta .sectiontitle {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .cta form {
-	max-width: 80%;
-	margin: 0 auto;
-	padding: 0;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .cta input {
-	width: 100%;
-	padding: 8px;
-	border: 1px solid;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid;
 }
 
 .cta button {
@@ -1327,4 +1332,3 @@ table a,
 		font-size: 1.6rem;
 	}
 }
-
