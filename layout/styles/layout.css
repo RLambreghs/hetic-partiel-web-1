@@ -38,7 +38,12 @@
 
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
-#header {}
+#header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position:fixed;
+}
 
 #header #logo {
   margin: 30px 0 0 0;
@@ -51,6 +56,9 @@
   text-transform: uppercase;
 }
 
+.header--hidden {
+  transform:translateY(-200%);
+}
 
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
@@ -84,6 +92,12 @@
 .bgded .overlay .light {
   background-image:url('images/demo/backgrounds/01.png');
 
+}
+
+.wrapper .row2 .bgded .overlay {
+	background-image:url('images/demo/backgrounds/02.png');
+	background-image:url('images/demo/backgrounds/03.png');
+	background-image:url('images/demo/backgrounds/04.png');
 }
 
 
