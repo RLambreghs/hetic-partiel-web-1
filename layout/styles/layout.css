@@ -60,6 +60,10 @@
   transform:translateY(-200%);
 }
 
+.fl_right .icon {
+    display: none;
+}
+
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
 #pageintro {
@@ -1258,6 +1262,22 @@ table a,
 	#copyright p:first-of-type {
 		margin-bottom: 10px;
 	}
+  .fl_right a:not(:first-child) {display: none;}
+  .fl_right a.icon {
+    float: right;
+    display: block;
+  }
+  .fl_right.responsive {position: relative;}
+  .fl_right.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .fl_right.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width:750px) {

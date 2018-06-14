@@ -9,3 +9,12 @@ var toggle = function() {
 window.onscroll = toggle;
 window.onload = toggle;
 window.onrisize = toggle;
+
+function myFunction() {
+    var x = document.getElementById("mainav");
+    if (x.className === "fl_right") {
+        x.className += " responsive";
+    } else {
+        x.className = "fl_right";
+    }
+}
